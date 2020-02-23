@@ -1,0 +1,53 @@
+.text-info{
+	color: #409EFF;
+}
+.nav{
+	padding:14px ;
+	border-bottom: 1px solid #67C23A;
+}
+.contact-box{
+padding:18px;	
+	
+}
+.contact-element{
+	text-align: left;
+}
+.text-box{
+	text-align: justify;
+}
+.row{
+ text-align: center;
+ 
+}
+.col-9{
+	width: 74%;
+}
+.col-6{
+	width: 49.6%;
+}
+.col-3{
+	width: 24%;
+}
+.col-4{
+  width: 32%;
+}
+.col-2{
+	width: 16%;
+}
+.col{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: green;
+	font-size: 18px;
+}
+body{
+	margin:0;
+}
+
