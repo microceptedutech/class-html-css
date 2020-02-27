@@ -1,3 +1,7 @@
+
+.active{
+	color: #67C23A;
+}
 .text-info{
 	color: #409EFF;
 }
@@ -45,7 +49,7 @@ a{
 }
 a:hover{
 	color: green;
-	font-size: 18px;
+	
 }
 body{
 	margin:0;

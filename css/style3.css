@@ -1,0 +1,32 @@
+.nav{
+	border-bottom: 1px solid green;
+}
+.nav-item{
+	padding-top: 14px;
+}
+.justify-center{
+	text-align: center;
+}
+.text-center{
+	text-align: center;
+}
+.row{
+	height: 60px;
+	
+}
+.col-6{
+	width: 48%;
+}
+.col-3{
+	width: 24%;
+}
+.col-2{
+	width: 16%;
+}
+.col{
+	height: 60px;
+	display: inline-block;
+}
+body{
+	margin:0;
+}
