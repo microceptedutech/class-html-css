@@ -1,4 +1,11 @@
-
+.footer{
+	text-align: center;
+	color: gray;
+	border-top: 1px solid gray;
+}
+.video{
+	margin-bottom: 24px;
+}
 .active{
 	color: #67C23A;
 }
