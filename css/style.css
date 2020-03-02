@@ -1,3 +1,26 @@
+.m-2{
+	margin:8px;
+}
+.btn{
+	padding:8px 10px 8px 10px;
+	border:0px;
+	cursor: pointer;
+}
+.btn:focus{
+	opacity: 0.9;
+}
+.btn-success{
+	background-color: green;
+	color: white;
+}
+.btn-danger{
+	background-color: #e53e3e;
+	color: white;
+}
+.btn-info{
+	background-color: #5a67d8;
+	color: white;
+}
 .line-three{
 	color: blue;
 	letter-spacing: 14px;
