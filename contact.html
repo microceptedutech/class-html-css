@@ -25,7 +25,7 @@
     </div>
     <div class="row">
         <div class="col col-6" >
-            <h3>CONTACT US</h3>
+            <h3 id="contact_title">CONTACT US</h3>
         </div>
     </div>
     <div class="row">
@@ -40,13 +40,16 @@
         </div>
         <div class="col col-2" >
             <div class="contact-box">
+                <div class="contact-element"><span class="text-info">Date</span> : <span id="date"></span></div>
                 <div class="contact-element"><span class="text-info">Mobile</span> : 0987654321</div>
                 <div class="contact-element"><span class="text-info">Email</span> : email@gmail.com</div>
                 <div class="contact-element"><span class="text-info">Address</span>: Guwahati</div>
-                <button class="btn btn-success m-2" onclick="alert()">Alert</button>
+                <button class="btn btn-success m-2" onclick="">Alert</button>
                 <button class="btn btn-danger" onclick="removePara()">Remove Para</button>
                 <button class="btn btn-info m-2">Subscribe Now</button>
-                <button class="btn btn-outline-success m-2" >Alert</button>
+                <button class="btn btn-outline-success m-2" onclick="changeHtml('THIS IS A TITLE')">CHANGE HTML</button>
+                <button class="btn btn-outline-success m-2" onclick="getDate()">GET DATE</button>
+
             </div>
            
         </div>
@@ -87,20 +90,6 @@
             
         </div>
     </div>
-
-    <script>
-        function alertPop(){
-           alert('OK');
-        }
-        function removePara(){
-           var para = document.getElementById('paragraph');
-           if(para.style.display == 'none'){
-               para.style.display = 'block';
-           }else{
-               para.style.display = 'none';
-           }
-           
-        }
-    </script>
+   <script src="./js/custom.js"></script>
 </body>
 </html>
