@@ -1,3 +1,6 @@
+.text-danger{
+	color: red;
+}
 .form-input{
 	padding:8px;
 	border:2px solid gray;
