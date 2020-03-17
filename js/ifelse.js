@@ -12,5 +12,5 @@ if(number == 10){
 }
 
 if(name == 'Micro'){
-    alert('Name is Micro');
+    //alert('Name is Micro');
 }
